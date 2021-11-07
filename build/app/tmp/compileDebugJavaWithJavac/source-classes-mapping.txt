@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/eshop/vendor/vendor_eshop/MainActivity.java
+ com.codekites.kladeseller.MainActivity
+com/codekites/kladeseller/BuildConfig.java
+ com.codekites.kladeseller.BuildConfig

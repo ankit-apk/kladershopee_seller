@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/sms_autofill/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/sms_autofill/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/sms_autofill/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/8ba120df78ef70b0b73857e5c07fa3e3/jetified-play-services-base-17.5.0/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

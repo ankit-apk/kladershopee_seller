@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/flutter_webview_plugin/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/ae1b2855b0c2c0b48dde672012ba9332/appcompat-1.1.0/res/color-v23/abc_btn_colored_text_material.xml"
+    }
+]

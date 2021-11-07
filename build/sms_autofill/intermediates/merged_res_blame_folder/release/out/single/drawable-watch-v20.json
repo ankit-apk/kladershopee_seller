@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/sms_autofill/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/e592dcb5d78b81f339f88c9c32d0e5e6/jetified-play-services-auth-19.2.0/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/sms_autofill/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/e592dcb5d78b81f339f88c9c32d0e5e6/jetified-play-services-auth-19.2.0/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/sms_autofill/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/ankitsrivastava/.gradle/caches/transforms-2/files-2.1/e592dcb5d78b81f339f88c9c32d0e5e6/jetified-play-services-auth-19.2.0/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]
