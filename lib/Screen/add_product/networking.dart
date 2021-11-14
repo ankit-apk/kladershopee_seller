@@ -50,11 +50,11 @@ class AddProductNetworking {
         'is_returnable': isReturnable,
         'is_cancelable': isCancellable,
         'cancelable_till': "received",
-        // 'pro_input_image': await MultipartFile.fromFile(
-        //   mainImagePath,
-        //   filename: mainImagePath.split('/').last,
-        //   contentType: MediaType('image', 'jpg'),
-        // ),
+        'pro_input_image': await MultipartFile.fromFile(
+          mainImagePath,
+          filename: mainImagePath.split('/').last,
+          contentType: MediaType('image', 'jpg'),
+        ),
         'pro_input_image': "",
         // 'other_images': productImages,
         'other_images': "",

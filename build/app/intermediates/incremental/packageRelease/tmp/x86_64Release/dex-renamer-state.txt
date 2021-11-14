@@ -1,4 +1,4 @@
-#Sun Nov 07 14:48:42 IST 2021
+#Fri Nov 12 21:27:39 IST 2021
 base.0=/Users/ankitsrivastava/Downloads/Multivendor eShop V1.0.1(new)/eShop Multivendor v1.0.1/eShop Multi Vendor Seller App v1.0.1/eShop Multi Vendor Seller App v1.0.1/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

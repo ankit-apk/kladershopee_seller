@@ -1981,10 +1981,10 @@ class _AddProductState extends State<AddProduct> {
               isCodAvailable: isCODAllow ?? "1",
               isTaxAdded: taxincludedInPrice.toString(),
               isCancellable: isCancelable ?? "0",
-              // mainImagePath: image!.path,
+              mainImagePath: image!.path,
               // productImages: images,
               // videoPath: videos!.path,
-              mainImagePath: "",
+              // mainImagePath: "",
               productImages: [],
               videoPath: "",
               videoType: "0",
@@ -2092,7 +2092,7 @@ class _AddProductState extends State<AddProduct> {
           _isCancelable(),
           isCancelable == "1" ? tillWhichStatus() : Container(),
           //
-          // tenHeader(),
+          tenHeader(),
           // elevanHeader(),
           // GestureDetector(
           //   onTap: () {

@@ -21,6 +21,8 @@ class RegisterNetworking {
     required String addressProofPath,
     required String logoPath,
     required String identityPath,
+    required String latitude,
+    required String longitude,
   }) async {
     var formData = FormData.fromMap({
       'name': name,
@@ -48,6 +50,8 @@ class RegisterNetworking {
       'account_name': accountName,
       'bank_code': bankCode,
       'bank_name': bankName,
+      'latitude': latitude,
+      'longitude': longitude,
       'other_status': 'a',
       'national_identity_card': await MultipartFile.fromFile(
         identityPath,

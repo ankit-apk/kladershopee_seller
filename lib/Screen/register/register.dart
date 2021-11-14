@@ -3,11 +3,13 @@ import 'dart:io';
 import 'package:eshopmultivendor/Helper/Color.dart';
 import 'package:eshopmultivendor/Helper/ContainerDesing.dart';
 import 'package:eshopmultivendor/Helper/Session.dart';
+import 'package:eshopmultivendor/Screen/register/geolocator.dart';
 import 'package:eshopmultivendor/Screen/register/networking.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:image_picker/image_picker.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -18,6 +20,21 @@ class RegisterScreen extends StatefulWidget {
 }
 
 class _RegisterScreenState extends State<RegisterScreen> {
+  @override
+  void initState() {
+    getPosition();
+    super.initState();
+  }
+
+  var position;
+  double latitude = 0.0;
+  double longitude = 0.0;
+  bool isTapped = false;
+  getPosition() async {
+    position = await determinePosition();
+    print(position.latitude);
+  }
+
   //Text Editing controllers;
   final TextEditingController nameController = TextEditingController();
   final TextEditingController mobileController = TextEditingController();
@@ -189,6 +206,33 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               },
                               child: Text(
                                 "Address proof",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            isTapped == true
+                                ? Icon(
+                                    Icons.check,
+                                    color: Colors.green,
+                                  )
+                                : const SizedBox(),
+                            ElevatedButton(
+                              onPressed: () async {
+                                var pos = await determinePosition();
+                                setState(() {
+                                  latitude = pos.latitude;
+                                  longitude = pos.longitude;
+                                  isTapped = true;
+                                });
+                              },
+                              child: Text(
+                                "Shop Location",
                                 style: TextStyle(
                                   color: Colors.white,
                                 ),
@@ -373,7 +417,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                   ),
                           ),
                           onPressed: () async {
-                            if (_formkey.currentState!.validate()) {
+                            if (_formkey.currentState!.validate() &&
+                                latitude != 0.0) {
                               setState(() {
                                 showLoading = true;
                               });
@@ -394,6 +439,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                 taxName: taxNameController.text,
                                 panNumber: panNumberController.text,
                                 addressProofPath: addressProof!.path,
+                                latitude: latitude.toString(),
+                                longitude: longitude.toString(),
                                 logoPath: storeLogo!.path,
                                 identityPath: nationalIdentityCard!.path,
                               );
